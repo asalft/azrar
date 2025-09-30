@@ -1,7 +1,7 @@
 import telebot
 from telebot import types
 
-bot_token = '8316791092:AAGrSIWHzgVK-pSPp9yJs6hVZMQPf64-Llg'
+bot_token = '8316791092:AAHde0I_yk40PHY4ded3I3ceZ0ExWEzf7C4'
 bot = telebot.TeleBot(bot_token)
 
 channels = {}
@@ -146,5 +146,6 @@ def get_button_content(message, message_content, button_name):
         bot.send_message(chat_id, "- تم يروحي نشرت المنشور .")
     else:
         bot.send_message(chat_id, "- بعدك ماضايف اي قناة.  ")
+
 
 bot.infinity_polling()
